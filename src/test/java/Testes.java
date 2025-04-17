@@ -268,5 +268,6 @@ public class Testes {
 
         WebElement sairButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@role='menuitem' and text()='Logout']")));
         sairButton.click();
+
     }
 }
